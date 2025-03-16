@@ -1,4 +1,4 @@
-package com.redis.cinema.entity;
+package com.redis.cinema.common.entity;
 
 
 import jakarta.persistence.*;
@@ -20,5 +20,11 @@ public class Img {
 
     private String imgNm;
     private String imgPath;
+
+    @Builder
+    public Img(String imgNm, String imgPath){
+        this.imgNm = imgNm;
+        this.imgPath = imgPath;
+    }
 
 }

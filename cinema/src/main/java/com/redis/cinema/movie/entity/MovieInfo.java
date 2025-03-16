@@ -1,4 +1,4 @@
-package com.redis.cinema.entity;
+package com.redis.cinema.movie.entity;
 import lombok.*;
 import jakarta.persistence.*; //spring boot 3  javax -> jakartr로 바뀜
 
