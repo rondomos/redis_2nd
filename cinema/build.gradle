@@ -44,7 +44,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	//데코레이터 사용
 	implementation group: 'nz.net.ultraq.thymeleaf', name: 'thymeleaf-layout-dialect', version: '3.0.0'
-
+	//도커
+	developmentOnly("org.springframework.boot:spring-boot-docker-compose")
 }
 
 tasks.named('test') {
