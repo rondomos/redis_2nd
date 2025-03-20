@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.redis'
-version = '0.0.1-SNAPSHOT'
+version = '001'
 
 java {
 	toolchain {
@@ -48,6 +48,6 @@ dependencies {
 	developmentOnly("org.springframework.boot:spring-boot-docker-compose")
 }
 
-tasks.named('test') {
+test{
 	useJUnitPlatform()
 }
