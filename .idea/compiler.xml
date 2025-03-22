@@ -20,12 +20,6 @@
         <module name="redis_2nd.domain.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="21">
-      <module name="redis_2nd.module-api.main" target="23" />
-      <module name="redis_2nd.module-api.test" target="23" />
-      <module name="redis_2nd.module-cinema" target="23" />
-      <module name="redis_2nd.module-cinema.main" target="23" />
-      <module name="redis_2nd.module-cinema.test" target="23" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="21" />
   </component>
 </project>

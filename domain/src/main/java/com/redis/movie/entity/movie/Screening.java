@@ -5,12 +5,10 @@ import com.redis.BaseEntity;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "theaterMoveTm")
+@Table(name = "theater_Movie_Tm")
 public class Screening extends BaseEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String theaterId;
-
     private String movieId;
     private int movieRound;
     private LocalDateTime theaterMovieStartTm;

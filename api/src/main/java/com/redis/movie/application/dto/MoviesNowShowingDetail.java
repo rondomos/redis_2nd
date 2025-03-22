@@ -17,7 +17,7 @@ public record MoviesNowShowingDetail (
         Genre genreCd,
         int showTm,
         String showYn,
-
-        String screenShowYn, List<ScreenDetail> screenDetail
+        String screenShowYn,
+        List<ScreenDetail> screenDetail
 ) {
 }

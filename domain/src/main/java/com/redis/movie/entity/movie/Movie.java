@@ -8,24 +8,20 @@ import jakarta.persistence.Entity;
 import com.redis.BaseEntity;
 
 @Entity
-@Table(name = "movieInfo")
+@Table(name = "movie_Info")
 public class Movie extends BaseEntity {
     @Id
-    private String theaterId;
+    private String movieId;
     @Enumerated(EnumType.STRING)
-    private Genre genre;
+    private Genre genreCd;
     @Enumerated(EnumType.STRING)
     private Grade grade;
 
-    private String movieId;
     private String movieNm;
-    private String genreCd;
     private int showTm;
     private String showYn;
-    private String  openDt;
+    private LocalDateTime  openDt;
     private int movieRound;
-    private String theaterMovieStartTm;
-    private String theaterMovieEndTm;
     private int theaterMovieHall;
     private String theaterNm;
     private int thumImg;

@@ -28,7 +28,7 @@ public class DtoConvertor {
 
 
                     List<ScreenDetail> ScreenDetails = groupedByMovie.stream()
-                            .collect(Collectors.groupingBy(MoviesNowShowDto::getTheaterId))
+                            .collect(Collectors.groupingBy(MoviesNowShowDto::getMovieId))
                             .entrySet().stream()
                             .map(theaterEntry -> {
                                 String theaterId = theaterEntry.getKey();

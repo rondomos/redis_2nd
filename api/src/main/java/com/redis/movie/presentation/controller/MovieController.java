@@ -25,7 +25,7 @@ public class MovieController {
             @RequestParam(value = "movieNm", required = false) String movieNm,
             @RequestParam(value = "search", required = false)String search
     ) {
-        List<MoviesNowShowingDetail> response = movieService.getMoviesNowShowing(LocalDateTime.now(), genre, search);
+        List<MoviesNowShowingDetail> response = movieService.getMoviesNowShowing(LocalDateTime.now(),movieNm, genre, search);
         return new BaseResponse<>(response);
     }
 

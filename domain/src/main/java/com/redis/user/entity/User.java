@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "movieuser")
+@Table(name = "movie_user")
 public class User extends BaseEntity{
 
     @Id
