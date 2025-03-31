@@ -25,8 +25,9 @@ public class MovieSeat {
     private String seatCol;
     private String seatRow;
 
+    @Version // Optimistic Lock 버전 필드
+    private Integer version;
 
-    //
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "screen")
     private Screen screen;

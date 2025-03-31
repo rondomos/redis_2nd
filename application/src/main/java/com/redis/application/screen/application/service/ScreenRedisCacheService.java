@@ -17,7 +17,7 @@ public class ScreenRedisCacheService {
     private final ScreenRepository screenRepository;
 
     //레디스 캐시 사용
-    @Cacheable(value = "screeningCache", key = "#movieNm + ':' + #genre")
+    @Cacheable(value = "screenCache", key = "#movieNm + ':' + #genre")
     public List<ScreenNowShowDto> getScreengings(String movieNm, Genre genre) {
         LocalDateTime now = LocalDateTime.now();
         // 현재 시간 이후로 상영 중인 영화 조회

@@ -39,14 +39,14 @@ public class ReservationService {
 
 
     @Transactional
-    public ReservationResponseDto reserveMovie(Long userId, Long screenId, List<Long> seatIdList) {
-        String lockKey = "reservation:" + screenId + ":" + userId;
+    public ReservationResponseDto reserveMovie(Long userId, Long cinemaId, List<Long> seatIdList) {
+        String lockKey = "reservation:" + cinemaId + ":" + userId;
         long leaseTime = 2000; // 2초 동안 락 유지
         long waitTime = 2000;  // 2초 동안 락 대기
 
         return redisLock.executeWithLock(lockKey, leaseTime, waitTime, () -> {
             MovieUser movieUser  = movieUserRepository.findById(userId).orElseThrow(() -> new BusinessException(ErrorCode.INVALID_INPUT_VALUE));
-            Screen screen = screenRepository.findScreenWithCinema(screenId).orElseThrow(() -> new BusinessException(ErrorCode.INVALID_INPUT_VALUE));
+            Screen screen = screenRepository.findScreenWithCinema(cinemaId).orElseThrow(() -> new BusinessException(ErrorCode.INVALID_INPUT_VALUE));
             List<MovieSeat> seats = movieSeatRepository.findAvailableSeats(screen.getCinemaId(), seatIdList);
 
 
@@ -77,7 +77,7 @@ public class ReservationService {
             eventPublisher.publishEvent(new ReservationCompletedEvent(
                     reservation.getReserId(),
                     movieUser.concatEmail(movieUser.getEmail01(),movieUser.getEmail02()) ,
-                    screen.getCinemaNm() + "에서 상영 예정입니다."
+                    screen.getCinemaNm() + "에서 상영 예정"
             ));
 
             return ApplicationReservationDtoMapper.toServiceReservationResponseDto(seats, screen);

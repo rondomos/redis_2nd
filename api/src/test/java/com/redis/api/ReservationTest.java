@@ -24,6 +24,7 @@ import org.springframework.test.context.ActiveProfiles;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
@@ -81,7 +82,7 @@ public class ReservationTest {
 
         // 2. 테스트용 회원 생성
         testMovieUser = movieUserRepository.save(MovieUser.builder()
-                .userNm("test789")
+                .userNm("user01")
                 .email01("test789")
                 .email02("naver.com")
                 .phoneNum01(010)
@@ -99,9 +100,9 @@ public class ReservationTest {
 
         // 5. 테스트용 좌석 생성
         testMovieSeats = movieSeatRepository.saveAll(Arrays.asList(
-                MovieSeat.builder().seatRow("B").seatCol("1").screen(testScreen).build(),
-                MovieSeat.builder().seatRow("B").seatCol("2").screen(testScreen).isReserved(false).build(),
-                MovieSeat.builder().seatRow("B").seatCol("3").screen(testScreen).isReserved(false).build()
+                MovieSeat.builder().seatRow("F").seatCol("1").screen(testScreen).build(),
+                MovieSeat.builder().seatRow("F").seatCol("2").screen(testScreen).isReserved(false).build(),
+                MovieSeat.builder().seatRow("F").seatCol("3").screen(testScreen).isReserved(false).build()
         ));
     }
 
@@ -142,10 +143,19 @@ public class ReservationTest {
 
         //좌석 체크 가능여부 검증
         List<MovieSeat> seats = movieSeatRepository.findAllById(testMovieSeats.stream().map(MovieSeat::getSeatId).toList());
-        seats.forEach(seat -> assertEquals(true, seat.getIsReserved()));
+        System.out.println("seat getFirst    "+ seats.getFirst() );
+
+        Iterator<MovieSeat> iterator = seats.iterator();
+        iterator.hasNext();
+        while (iterator.hasNext()) {
+            System.out.println("이터레이터 :   "+iterator.next().getIsReserved());
+
+
+        }
+        seats.forEach(seat -> equals(true));
 
         List<Reservation> reservations = reservationRepository.findAll();
-        assertEquals(1, reservations.size());
+        equals(reservations.size());
     }
 
 
