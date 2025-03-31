@@ -1,0 +1,10 @@
+###
+POST localhost:8080/api/reservation
+Content-Type: application/json
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [101,103]
+}
+

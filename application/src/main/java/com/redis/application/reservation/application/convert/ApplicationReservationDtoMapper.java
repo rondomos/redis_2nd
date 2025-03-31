@@ -17,8 +17,8 @@ public class ApplicationReservationDtoMapper {
 
         return new ReservationResponseDto(
                 screen.getCinemaNm(),
-                screen.getMovieStartTime().toLocalTime(),
-                screen.getMovieEndTime().toLocalTime(),
+                screen.getMovieStartTime(),
+                screen.getMovieEndTime(),
                 reservedSeats);
 
     }

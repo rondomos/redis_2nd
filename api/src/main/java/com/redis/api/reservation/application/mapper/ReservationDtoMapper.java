@@ -6,9 +6,9 @@ public class ReservationDtoMapper {
 
 
     public static ReservationResponseDto toReservationResponseDto(ReservationResponseDto serviceReservationResponseDto) {
-        return new ReservationResponseDto(serviceReservationResponseDto.getCinemaName(),
-                serviceReservationResponseDto.getStartMovieTime(),
-                serviceReservationResponseDto.getEndMovieTime(),
+        return new ReservationResponseDto(serviceReservationResponseDto.getCinemaNm(),
+                serviceReservationResponseDto.getMovieStartTime(),
+                serviceReservationResponseDto.getMovieEndTime(),
                 serviceReservationResponseDto.getReservedSeats()
         );
     }

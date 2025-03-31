@@ -48,7 +48,7 @@ public interface ScreenRepository extends CrudRepository<Screen, Long> {
     List<ScreenNowShowDto> findlikeMovieShowing (@Param("movieNm")String movieNm, @Param("genre")Genre genre, @Param("now")LocalDateTime now);
 
 
-    @Query("SELECT sc.cinemaId " +
+    @Query("SELECT sc " +
             "FROM Screen sc " +
             "WHERE sc.cinemaId = :cinemaId")
     Optional<Screen> findScreenWithCinema(Long cinemaId);

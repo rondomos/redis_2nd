@@ -9,17 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3498bdff-6cd7-4b2c-abb6-88d6d8ec3706" name="변경" comment="3주차 레디스 설정 및 캐시적용, 락 테스트는 진행중...">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/3주차/cinema_movie_time.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/3주차/common_img.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/3주차/movie_info.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/3주차/movie_reser.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/3주차/movie_reser_sub.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/3주차/movie_seat.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/3주차/movie_user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/3주차/레디스 (1).png" afterDir="false" />
+    <list default="true" id="3498bdff-6cd7-4b2c-abb6-88d6d8ec3706" name="변경" comment="3주차 데이터 값 수정하여 테스트">
+      <change afterPath="$PROJECT_DIR$/api/http/reservation.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.bin" afterDir="false" />
@@ -28,42 +19,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/redis/api/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/com/redis/api/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/redis/api/reservation/application/convert/ReservationDtoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/redis/api/reservation/presentation/controller/ReservationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/com/redis/api/reservation/presentation/controller/ReservationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/test/com/redis/api/ReservationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/test/com/redis/api/ReservationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/reports/tests/test/classes/com.redis.api.ReservationTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/reports/tests/test/classes/com.redis.api.ReservationTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/reports/tests/test/packages/com.redis.api.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/reports/tests/test/packages/com.redis.api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/test-results/test/TEST-com.redis.api.ReservationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/test-results/test/TEST-com.redis.api.ReservationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/ReservationController.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/ScreenController.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/ScreenService.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileTestJava/compileTransaction/stash-dir/ReservationTest.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/tmp/compileTestJava/compileTransaction/stash-dir/ReservationTest.class.uniqueId0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/redis/api/ReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/com/redis/api/ReservationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/message/event/MessageEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/message/event/MessageEventListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/http/movieNow.http" beforeDir="false" afterPath="$PROJECT_DIR$/api/http/movieNow.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/redis/api/reservation/application/mapper/ReservationDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/redis/api/reservation/application/mapper/ReservationDtoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/message/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/message/service/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/convert/ApplicationReservationDtoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/convert/ApplicationReservationDtoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/dto/ReservationResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/dto/ReservationResponseDto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/service/ReservationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/screen/application/service/ScreenRedisCacheService.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/screen/application/service/ScreenRedisCacheService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/build/libs/application-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/libs/application-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/tmp/compileJava/compileTransaction/stash-dir/ApplicationReservationDtoMapper.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/tmp/compileJava/compileTransaction/stash-dir/ReservationService.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/tmp/compileJava/compileTransaction/stash-dir/ScreenRedisCacheController.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/tmp/compileJava/compileTransaction/stash-dir/ScreenRedisCacheService.class.uniqueId3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/application/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/redis/application/message/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/redis/application/message/service/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/redis/application/reservation/application/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/redis/application/reservation/application/service/ReservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/redis/application/screen/application/service/ScreenRedisCacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/redis/application/screen/application/service/ScreenRedisCacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/redis/application/reservation/application/convert/ApplicationReservationDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/redis/application/reservation/application/convert/ApplicationReservationDtoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/redis/application/reservation/application/dto/ReservationResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/redis/application/reservation/application/dto/ReservationResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/redis/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/data/redis/dump.rdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/com/redis/domain/seat/entity/MovieSeat$MovieSeatBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/com/redis/domain/seat/entity/MovieSeat$MovieSeatBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/com/redis/domain/seat/entity/MovieSeat.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/com/redis/domain/seat/entity/MovieSeat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/com/redis/domain/screen/repository/ScreenRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/com/redis/domain/screen/repository/ScreenRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/build/libs/domain-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/libs/domain-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/tmp/compileJava/compileTransaction/stash-dir/ScreenRepository.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/redis/domain/seat/entity/MovieSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/redis/domain/seat/entity/MovieSeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/redis/domain/screen/repository/ScreenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/redis/domain/screen/repository/ScreenRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,11 +189,11 @@
         <option value="Enum" />
         <option value="module-info" />
         <option value="com.intellij.jpb.JpaEntity" />
-        <option value="HTTP Request" />
         <option value="package.json" />
         <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -390,10 +362,14 @@
     "HTTP 요청.KMdb | GET request to example server.executor": "Run",
     "HTTP 요청.KMdb 내 전체.executor": "Run",
     "HTTP 요청.KMdbApi | GET request to example server.executor": "Run",
+    "HTTP 요청.generated-requests | #1.executor": "Run",
     "HTTP 요청.movieNow | 상영중인 영화 가져오기.executor": "Run",
     "HTTP 요청.movieNow 내 전체.executor": "Run",
     "HTTP 요청.reidsTest | #1.executor": "Run",
     "HTTP 요청.reidsTest | 상영중인 영화 가져오기.executor": "Run",
+    "HTTP 요청.reservation | #1.executor": "Run",
+    "HTTP 요청.reservation | GET request to example server.executor": "Run",
+    "HTTP 요청.reservation 내 전체.executor": "Run",
     "JUnit.CinemaApplicationTests.executor": "Run",
     "JUnit.ReservationServiceTest.executor": "Run",
     "JUnit.api-module22의 전부.executor": "Debug",
@@ -416,7 +392,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Shell Script.gradlew.executor": "Run",
     "Spring Boot.ApiApplication (1).executor": "Run",
-    "Spring Boot.ApiApplication.executor": "Run",
+    "Spring Boot.ApiApplication.executor": "Debug",
     "Spring Boot.CinemaApplication.executor": "Run",
     "Spring Boot.InfraApplication.executor": "Run",
     "Spring Boot.Main$ApiApplication.executor": "Run",
@@ -502,7 +478,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ReservationTest">
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
     <configuration name="ReservationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -527,72 +503,17 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="redis_2nd [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+    <configuration name="movieNow | 상영중인 영화 가져오기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/http/movieNow.http" executionIdentifier="상영중인 영화 가져오기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="redis_2nd [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+    <configuration name="reservation | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/http/reservation.http" executionIdentifier="GET request to example server" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="ReservationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis_2nd.application.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.redis.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.redis.application" />
-      <option name="MAIN_CLASS_NAME" value="com.redis.application.ReservationServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="reservation | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/http/reservation.http" executionIdentifier="#1" runType="단일 요청 실행">
+      <method v="2" />
     </configuration>
-    <configuration name="redis_2nd의 전부" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis_2nd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="reservation 내 전체" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/api/http/reservation.http">
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="redis_2nd" />
@@ -631,20 +552,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.redis_2nd [build]" />
-      <item itemvalue="Gradle.redis_2nd [clean]" />
       <item itemvalue="Gradle.ReservationTest" />
-      <item itemvalue="JUnit.ReservationServiceTest" />
-      <item itemvalue="JUnit.redis_2nd의 전부" />
+      <item itemvalue="HTTP 요청.reservation | #1" />
+      <item itemvalue="HTTP 요청.reservation 내 전체" />
+      <item itemvalue="HTTP 요청.reservation | GET request to example server" />
+      <item itemvalue="HTTP 요청.movieNow | 상영중인 영화 가져오기" />
       <item itemvalue="Spring Boot.ApiApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP 요청.reservation | #1" />
+        <item itemvalue="HTTP 요청.reservation 내 전체" />
+        <item itemvalue="HTTP 요청.movieNow | 상영중인 영화 가져오기" />
+        <item itemvalue="HTTP 요청.reservation | GET request to example server" />
         <item itemvalue="Gradle.ReservationTest" />
-        <item itemvalue="Gradle.redis_2nd [build]" />
-        <item itemvalue="Gradle.redis_2nd [clean]" />
-        <item itemvalue="JUnit.ReservationServiceTest" />
-        <item itemvalue="JUnit.redis_2nd의 전부" />
       </list>
     </recent_temporary>
   </component>
@@ -701,7 +622,7 @@
       <workItem from="1743171102809" duration="46199000" />
       <workItem from="1743347650584" duration="857000" />
       <workItem from="1743348537660" duration="453000" />
-      <workItem from="1743349011303" duration="6659000" />
+      <workItem from="1743349011303" duration="9858000" />
     </task>
     <task id="LOCAL-00001" summary="아직 제작중입니다...&#10;조만간 제작해서 올려두겠습니다ㅠㅜ&#10;완성한게 아직 없어용...">
       <option name="closed" value="true" />
@@ -799,7 +720,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743352101145</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="3주차 데이터 값 수정하여 테스트">
+      <option name="closed" value="true" />
+      <created>1743401046379</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743401046379</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -826,7 +755,8 @@
     <MESSAGE value="2주차 테스트 결과 이미지 파일 커밋" />
     <MESSAGE value="2주차 이미지파일 이름 수정" />
     <MESSAGE value="3주차 레디스 설정 및 캐시적용, 락 테스트는 진행중..." />
-    <option name="LAST_COMMIT_MESSAGE" value="3주차 레디스 설정 및 캐시적용, 락 테스트는 진행중..." />
+    <MESSAGE value="3주차 데이터 값 수정하여 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="3주차 데이터 값 수정하여 테스트" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -898,6 +828,16 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/redis/api/reservation/presentation/controller/ReservationController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/application/src/main/java/com/redis/application/reservation/application/service/ReservationService.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
