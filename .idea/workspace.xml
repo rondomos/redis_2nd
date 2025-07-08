@@ -10,32 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3498bdff-6cd7-4b2c-abb6-88d6d8ec3706" name="변경" comment="3주차 데이터 값 수정하여 테스트">
-      <change afterPath="$PROJECT_DIR$/api/http/reservation.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/http/movieNow.http" beforeDir="false" afterPath="$PROJECT_DIR$/api/http/movieNow.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/redis/api/reservation/application/mapper/ReservationDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/redis/api/reservation/application/mapper/ReservationDtoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/message/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/message/service/MessageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/convert/ApplicationReservationDtoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/convert/ApplicationReservationDtoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/dto/ReservationResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/dto/ReservationResponseDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/reservation/application/service/ReservationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/screen/application/service/ScreenRedisCacheService.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/com/redis/application/screen/application/service/ScreenRedisCacheService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/libs/application-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/libs/application-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/redis/application/reservation/application/convert/ApplicationReservationDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/redis/application/reservation/application/convert/ApplicationReservationDtoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/redis/application/reservation/application/dto/ReservationResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/redis/application/reservation/application/dto/ReservationResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/http/reservation.http" beforeDir="false" afterPath="$PROJECT_DIR$/api/http/reservation.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/redis/application/ReservationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/com/redis/application/ReservationServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/redis/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/data/redis/dump.rdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/com/redis/domain/screen/repository/ScreenRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/com/redis/domain/screen/repository/ScreenRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/libs/domain-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/libs/domain-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/redis/domain/screen/repository/ScreenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/redis/domain/screen/repository/ScreenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/infra/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,152 +275,152 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Docker.Docker 이미지.executor": "Run",
-    "Docker.Dockerfile.executor": "Run",
-    "Docker.cinema/compose.yaml.redis: Compose 배포.executor": "Run",
-    "Docker.cinema/compose.yaml: Compose 배포.executor": "Run",
-    "Docker.cinema/compose.yml.app: Compose 배포.executor": "Run",
-    "Docker.docker-compose.yml.grafana: Compose 배포.executor": "Run",
-    "Docker.docker-compose.yml.mysql: Compose 배포.executor": "Run",
-    "Docker.docker-compose.yml.redis: Compose 배포.executor": "Run",
-    "Docker.docker-compose.yml: Compose 배포.executor": "Run",
-    "Docker.mysql_8.0.executor": "Run",
-    "Docker.reids_2nd-redis-6.2.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Gradle.'api'에 있는 테스트.executor": "Debug",
-    "Gradle.'domain'에 있는 테스트.executor": "Debug",
-    "Gradle.'domain.untitled'에 있는 테스트.executor": "Debug",
-    "Gradle.'module-innerApi'에 있는 테스트.executor": "Debug",
-    "Gradle.'module-innerApi2'에 있는 테스트.executor": "Debug",
-    "Gradle.'module-movie'에 있는 테스트.executor": "Debug",
-    "Gradle.'movie'에 있는 테스트.executor": "Debug",
-    "Gradle.'redis_2nd.module-api'에 있는 테스트.executor": "Debug",
-    "Gradle.ReservationTest.executor": "Run",
-    "Gradle.api 빌드.executor": "Run",
-    "Gradle.batch-module 빌드.executor": "Run",
-    "Gradle.cinema [bootJar].executor": "Run",
-    "Gradle.cinema [build].executor": "Run",
-    "Gradle.cinema [clean].executor": "Run",
-    "Gradle.cinema [jar].executor": "Run",
-    "Gradle.domain.executor": "Debug",
-    "Gradle.gradle [build].executor": "Run",
-    "Gradle.gradle [classes].executor": "Run",
-    "Gradle.gradle [clean].executor": "Run",
-    "Gradle.gradle [init].executor": "Run",
-    "Gradle.gradle [wrapper].executor": "Run",
-    "Gradle.gradle 빌드.executor": "Run",
-    "Gradle.module-api 빌드.executor": "Run",
-    "Gradle.module-cinema [build].executor": "Run",
-    "Gradle.module-cinema [clean].executor": "Run",
-    "Gradle.module-cinema [dependencies].executor": "Run",
-    "Gradle.module-cinema 빌드.executor": "Run",
-    "Gradle.module-common [bootJar].executor": "Run",
-    "Gradle.module-common [clean].executor": "Coverage",
-    "Gradle.module-common 빌드.executor": "Run",
-    "Gradle.module-domain 빌드.executor": "Run",
-    "Gradle.module-innerApi [dependencies].executor": "Run",
-    "Gradle.module-innerApi 빌드.executor": "Run",
-    "Gradle.module-movie 빌드.executor": "Run",
-    "Gradle.redis_2nd [bootJar].executor": "Run",
-    "Gradle.redis_2nd [buildDependents].executor": "Run",
-    "Gradle.redis_2nd [build].executor": "Run",
-    "Gradle.redis_2nd [clean].executor": "Run",
-    "Gradle.redis_2nd [dependencies].executor": "Run",
-    "Gradle.redis_2nd [jar].executor": "Run",
-    "Gradle.redis_2nd 빌드.executor": "Run",
-    "Gradle.redis_2nd.executor": "Run",
-    "Gradle.redis_2nd:api [build].executor": "Run",
-    "Gradle.redis_2nd:api [classes].executor": "Run",
-    "Gradle.redis_2nd:api [clean].executor": "Run",
-    "Gradle.redis_2nd:application [build].executor": "Run",
-    "Gradle.redis_2nd:application [clean].executor": "Run",
-    "Gradle.redis_2nd:common [assemble].executor": "Run",
-    "Gradle.redis_2nd:common [build].executor": "Run",
-    "Gradle.redis_2nd:common [clean].executor": "Run",
-    "Gradle.redis_2nd:domain [bootJar].executor": "Run",
-    "Gradle.redis_2nd:domain [build].executor": "Run",
-    "Gradle.redis_2nd:domain [classes].executor": "Run",
-    "Gradle.redis_2nd:domain [clean].executor": "Run",
-    "Gradle.redis_2nd:infra [bootRun].executor": "Run",
-    "Gradle.redis_2nd:infra [buildDependents].executor": "Run",
-    "Gradle.redis_2nd:infra [build].executor": "Debug",
-    "Gradle.redis_2nd:infra [classes].executor": "Run",
-    "Gradle.redis_2nd:infra [clean].executor": "Run",
-    "Gradle.소스 다운로드.executor": "Run",
-    "HTTP 요청.KMdb | #1.executor": "Run",
-    "HTTP 요청.KMdb | GET request to example server.executor": "Run",
-    "HTTP 요청.KMdb 내 전체.executor": "Run",
-    "HTTP 요청.KMdbApi | GET request to example server.executor": "Run",
-    "HTTP 요청.generated-requests | #1.executor": "Run",
-    "HTTP 요청.movieNow | 상영중인 영화 가져오기.executor": "Run",
-    "HTTP 요청.movieNow 내 전체.executor": "Run",
-    "HTTP 요청.reidsTest | #1.executor": "Run",
-    "HTTP 요청.reidsTest | 상영중인 영화 가져오기.executor": "Run",
-    "HTTP 요청.reservation | #1.executor": "Run",
-    "HTTP 요청.reservation | GET request to example server.executor": "Run",
-    "HTTP 요청.reservation 내 전체.executor": "Run",
-    "JUnit.CinemaApplicationTests.executor": "Run",
-    "JUnit.ReservationServiceTest.executor": "Run",
-    "JUnit.api-module22의 전부.executor": "Debug",
-    "JUnit.api의 전부 (1).executor": "Debug",
-    "JUnit.api의 전부.executor": "Debug",
-    "JUnit.core-module의 전부.executor": "Debug",
-    "JUnit.module-InnerApi의 전부.executor": "Debug",
-    "JUnit.redis_2nd의 전부 (1).executor": "Run",
-    "JUnit.redis_2nd의 전부.executor": "Debug",
-    "Node.js.test.js.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Shell Script.gradlew.executor": "Run",
-    "Spring Boot.ApiApplication (1).executor": "Run",
-    "Spring Boot.ApiApplication.executor": "Debug",
-    "Spring Boot.CinemaApplication.executor": "Run",
-    "Spring Boot.InfraApplication.executor": "Run",
-    "Spring Boot.Main$ApiApplication.executor": "Run",
-    "Spring Boot.ModuleApiApplication.executor": "Debug",
-    "Spring Boot.RedisCacheApplication.executor": "Run",
-    "Tomcat 서버.tomcat7.executor": "Run",
-    "database.data.extractors.current.export.id": "SQL Insert",
-    "database.data.extractors.current.id": "SQL Insert",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "3주차",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/isaac/IdeaProjects/redis_2nd/domain/src/main/java/com/redis/domain/reservation/repository",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/isaac/IdeaProjects/redis_2nd/application/src/main/java/com/redis/Main.java",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15917969",
-    "project.structure.side.proportion": "0.30697674",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.Main (1).executor": "Run",
-    "애플리케이션.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Docker.Docker 이미지.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.cinema/compose.yaml.redis: Compose 배포.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.cinema/compose.yaml: Compose 배포.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.cinema/compose.yml.app: Compose 배포.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.grafana: Compose 배포.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mysql: Compose 배포.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.redis: Compose 배포.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose 배포.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.mysql_8.0.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.reids_2nd-redis-6.2.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Gradle.'api'에 있는 테스트.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.'domain'에 있는 테스트.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.'domain.untitled'에 있는 테스트.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.'module-innerApi'에 있는 테스트.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.'module-innerApi2'에 있는 테스트.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.'module-movie'에 있는 테스트.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.'movie'에 있는 테스트.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.'redis_2nd.module-api'에 있는 테스트.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.ReservationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.api 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.batch-module 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.cinema [bootJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.cinema [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.cinema [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.cinema [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.domain.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.gradle [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gradle [classes].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gradle [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gradle [init].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gradle [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gradle 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.module-api 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.module-cinema [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.module-cinema [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.module-cinema [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.module-cinema 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.module-common [bootJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.module-common [clean].executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.module-common 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.module-domain 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.module-innerApi [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.module-innerApi 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.module-movie 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd [bootJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd [buildDependents].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:api [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:api [classes].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:api [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:application [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:application [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:common [assemble].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:common [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:common [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:domain [bootJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:domain [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:domain [classes].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:domain [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:infra [bootRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:infra [buildDependents].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:infra [build].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.redis_2nd:infra [classes].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.redis_2nd:infra [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.소스 다운로드.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.KMdb | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.KMdb | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.KMdb 내 전체.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.KMdbApi | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.movieNow | 상영중인 영화 가져오기.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.movieNow 내 전체.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.reidsTest | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.reidsTest | 상영중인 영화 가져오기.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.reservation | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.reservation | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.reservation 내 전체.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CinemaApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReservationServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.api-module22의 전부.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.api의 전부 (1).executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.api의 전부.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.core-module의 전부.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.module-InnerApi의 전부.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.redis_2nd의 전부 (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.redis_2nd의 전부.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Shell Script.gradlew.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ApiApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.CinemaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.InfraApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Main$ApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ModuleApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.RedisCacheApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat 서버.tomcat7.executor&quot;: &quot;Run&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Insert&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;SQL Insert&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;3주차&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/isaac/IdeaProjects/multi-module&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/isaac/IdeaProjects/redis_2nd/application/src/main/java/com/redis/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15917969&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30697674&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -622,7 +615,10 @@
       <workItem from="1743171102809" duration="46199000" />
       <workItem from="1743347650584" duration="857000" />
       <workItem from="1743348537660" duration="453000" />
-      <workItem from="1743349011303" duration="9858000" />
+      <workItem from="1743349011303" duration="18869000" />
+      <workItem from="1743662426774" duration="6728000" />
+      <workItem from="1744088318798" duration="5881000" />
+      <workItem from="1744103839622" duration="6929000" />
     </task>
     <task id="LOCAL-00001" summary="아직 제작중입니다...&#10;조만간 제작해서 올려두겠습니다ㅠㅜ&#10;완성한게 아직 없어용...">
       <option name="closed" value="true" />
@@ -728,7 +724,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743401046379</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="3주차 데이터 값 수정하여 테스트">
+      <option name="closed" value="true" />
+      <created>1743404137537</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1743404137537</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

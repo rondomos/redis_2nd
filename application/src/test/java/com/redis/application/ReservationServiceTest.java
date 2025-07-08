@@ -24,7 +24,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import java.time.LocalDateTime;
+import java.time.LocalDateTime;                
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -66,9 +66,9 @@ public class ReservationServiceTest {
         screen = Screen.builder().cinemaId(1L).movieStartTime(LocalDateTime.now()).movieEndTime(LocalDateTime.now().plusHours(2)).build();
 
         seats = Arrays.asList(
-                MovieSeat.builder().seatId(1L).seatRow("B").seatCol("1").isReserved(false).build(),
-                MovieSeat.builder().seatId(2L).seatRow("B").seatCol("2").isReserved(false).build(),
-                MovieSeat.builder().seatId(3L).seatRow("B").seatCol("3").isReserved(false).build()
+                MovieSeat.builder().seatId(1L).seatRow("F").seatCol("1").isReserved(false).build(),
+                MovieSeat.builder().seatId(2L).seatRow("F").seatCol("2").isReserved(false).build(),
+                MovieSeat.builder().seatId(3L).seatRow("F").seatCol("3").isReserved(false).build()
         );
     }
 

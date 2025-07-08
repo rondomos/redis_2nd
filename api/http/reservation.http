@@ -8,3 +8,9 @@ Content-Type: application/json
   "seatIdList": [101,103]
 }
 
+
+### {
+###  "userId": 2,
+###  "cinemaId": 1,
+###  "seatIdList": [106,107]
+###  }
