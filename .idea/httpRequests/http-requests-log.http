@@ -1,0 +1,816 @@
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [101,103]
+}
+
+<> 2025-03-31T155448.400.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [101,103]
+}
+
+<> 2025-03-31T155439.400.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [101,103]
+}
+
+<> 2025-03-31T155417.400.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [101,103]
+}
+
+<> 2025-03-31T155355.400.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [101,103]
+}
+
+<> 2025-03-31T155327.400.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T155008.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T154918.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T154854.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T154518.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T154505.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T154303.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T154234.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T154118.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T154048.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T154028.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T154010.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T153649.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T153439.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T153438.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T153436-1.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T153436.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T153435.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 55
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": 106
+}
+
+<> 2025-03-31T153427.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T153407.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T153406.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T152857.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T152855-1.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T152855.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T152854.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "cinemaId": 1,
+  "seatIdList": [106,107]
+}
+
+<> 2025-03-31T152853.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "cinemaId": 1,
+  "seatIdList": [101,102]
+}
+
+<> 2025-03-31T152824.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "cinemaId": 1,
+  "seatIdList": [101,102]
+}
+
+<> 2025-03-31T152822.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 65
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "cinemaId": 1,
+  "seatIdList": [101,102,103]
+}
+
+<> 2025-03-31T152628.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 65
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "cinemaId": 1,
+  "seatIdList": [101,102,103]
+}
+
+<> 2025-03-31T152626.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 65
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "cinemaId": 1,
+  "seatIdList": [101,102,103]
+}
+
+<> 2025-03-31T152623.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 54
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "cinemaId": 1,
+  "seatIdList": []
+}
+
+<> 2025-03-31T152427.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 54
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "cinemaId": 1,
+  "seatIdList": []
+}
+
+<> 2025-03-31T152103.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 54
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 0,
+  "cinemaId": 0,
+  "seatIdList": []
+}
+
+<> 2025-03-31T152055.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 54
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 0,
+  "cinemaId": 0,
+  "seatIdList": []
+}
+
+<> 2025-03-31T152053.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 54
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 0,
+  "cinemaId": 0,
+  "seatIdList": []
+}
+
+<> 2025-03-31T152051.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "seatId": 2,
+  "cinemaId": 1
+}
+
+<> 2025-03-31T151939.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "seatId": 2,
+  "cinemaId": 1
+}
+
+<> 2025-03-31T151747.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "seatId": 2,
+  "cinemaId": 1
+}
+
+<> 2025-03-31T151706.500.json
+
+###
+
+GET http://localhost:8080/redisUse/movies/likeMovieRedis?movieNm=인셉션&genre=SF
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T151539.200.json
+
+###
+
+GET http://localhost:8080/api/movies/nowMovie?movieNm=인셉션&genre=SF
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T151519.500.json
+
+###
+
+GET http://localhost:8080/api/movies/nowMovie?movieNm=인셉션&genre=SF
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T151517.500.json
+
+###
+
+GET http://localhost:8080/v1/movies/nowMovie?movieNm=김치컬처&genre=FANTASY
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T151449.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "seatId": 2,
+  "cinemaId": 1
+}
+
+<> 2025-03-31T151438-1.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "seatId": 2,
+  "cinemaId": 1
+}
+
+<> 2025-03-31T151438.500.json
+
+###
+
+POST http://localhost:8080/api/reservation
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "seatId": 2,
+  "cinemaId": 1
+}
+
+<> 2025-03-31T151415.500.json
+
+###
+

@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "data": [
+    {
+      "cinemaId": 2,
+      "modifyDate": null,
+      "openDate": "2010-07-16T00:00:00",
+      "movieStartTime": "2025-04-01T17:00:00",
+      "movieEndTime": "2025-04-01T19:00:00",
+      "movieId": 2,
+      "movieNm": "인셉션",
+      "genreCd": "SF",
+      "showTimeMin": 148,
+      "showYn": true,
+      "grade": null,
+      "movieRound": 2,
+      "movieHall": 2,
+      "cinemaNm": "롯데시네마 홍대",
+      "screenShowYn": true,
+      "imgSeq": null,
+      "imgPath": null,
+      "imgNm": null
+    }
+  ]
+}
